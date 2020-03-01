@@ -66,10 +66,9 @@ fn main() {
                 confirm
             };
             let seed = mnemonic::inspect_seed(&phrase, &passphrase);
-            let (sk, pk, addr) = ecc::new_key(&seed[0..32]);
+            let (sk, addr) = ecc::from_seed(&seed[0..32]);
             println!("{}", phrase);
-            println!("Private key: {:x}", sk);
-            println!("Public key: {:x}", pk);
+            println!("Private key: {}", sk);
             println!("Wallet Address: {}", addr);
         }
         ("inspect", Some(inspect)) => {
@@ -104,9 +103,8 @@ fn main() {
                 confirm
             };
             let seed = mnemonic::inspect_seed(&phrase, &passphrase);
-            let (sk, pk, addr) = ecc::new_key(&seed[0..32]);
-            println!("Private key: {:x}", sk);
-            println!("Public key: {:x}", pk);
+            let (sk, addr) = ecc::from_seed(&seed[0..32]);
+            println!("Private key: {}", sk);
             println!("Wallet Address: {}", addr);
         }
         _ => {}
