@@ -8,7 +8,7 @@ Public key: 03e78556a547b0b54a0a90c0e131b492679c9be116667e5db04efaf64ff4c0211a
 Wallet Address: 1FNUjuoHosKuf8C4TQu891XdcPNNnBNKdF
 ```
 
-recover key from mnemonic phrase:
+recovery key from mnemonic phrase:
 
 ```
 ./btcc inspect -n song age iron best debris clerk thought detect obtain van face only access educate view
