@@ -2,18 +2,17 @@ generate key with 15 mnemonic phrases:
 
 ```
 ./btcc gen -i 15 -n
-song age iron best debris clerk thought detect obtain van face only access educate view
-Private key: 0514304ec6315ed2a03a3e045c08eaa9c51d90923eb6ea0fec6e027e23834125
-Public key: 03e78556a547b0b54a0a90c0e131b492679c9be116667e5db04efaf64ff4c0211a
-Wallet Address: 1FNUjuoHosKuf8C4TQu891XdcPNNnBNKdF
+
+dragon you flush glass letter bullet mechanic dice differ void keep any lonely panther zoo
+Private key: KwsbvddQqFND9ZMjQvHsCw7Qpz5q26VGVngESsZa1nXb3WYfNjZW
+Wallet Address: 1Ngku1GxPAWnPRPdaPEubDQ5kj9aAt667M
 ```
 
 recovery key from mnemonic phrase:
 
 ```
-./btcc inspect -n song age iron best debris clerk thought detect obtain van face only access educate view
+./btcc inspect -n dragon you flush glass letter bullet mechanic dice differ void keep any lonely panther zoo
 
-Private key: 0514304ec6315ed2a03a3e045c08eaa9c51d90923eb6ea0fec6e027e23834125
-Public key: 03e78556a547b0b54a0a90c0e131b492679c9be116667e5db04efaf64ff4c0211a
-Wallet Address: 1FNUjuoHosKuf8C4TQu891XdcPNNnBNKdF
+Private key: KwsbvddQqFND9ZMjQvHsCw7Qpz5q26VGVngESsZa1nXb3WYfNjZW
+Wallet Address: 1Ngku1GxPAWnPRPdaPEubDQ5kj9aAt667M
 ```

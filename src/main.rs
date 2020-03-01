@@ -67,7 +67,6 @@ fn main() {
             };
             let seed = mnemonic::inspect_seed(&phrase, &passphrase);
             let (sk, addr) = ecc::from_seed(&seed[0..32]);
-            println!("{}", phrase);
             println!("Private key: {}", sk);
             println!("Wallet Address: {}", addr);
         }
